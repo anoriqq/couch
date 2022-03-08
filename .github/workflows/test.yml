@@ -20,7 +20,7 @@ jobs:
     - name: Get dependencies
       run: |
         go mod tidy
-        go install github.com/tenntenn/testtime@latest
+        go install github.com/tenntenn/testtime/cmd/testtime@latest
 
     - name: Run test
       run: go test -race -overlay=$(testtime) -shuffle on -count 1 ./...
