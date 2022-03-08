@@ -13,11 +13,11 @@ example project is [here](https://github.com/anoriqq/couch-example).
 ## Development
 
 ```shell
-// install requirements
+# install requirements
 go install github.com/tenntenn/testtime@latest
 go mod tidy
 
-// run all test
+# run all test
 go test -race -overlay=$(testtime) -shuffle on -count 1 ./...
 ```
 
