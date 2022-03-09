@@ -1,4 +1,4 @@
-# cauch | [![Go Reference](https://pkg.go.dev/badge/github.com/anoriqq/couch.svg)](https://pkg.go.dev/github.com/anoriqq/couch)
+# cauch - [![Go Reference](https://pkg.go.dev/badge/github.com/anoriqq/couch.svg)](https://pkg.go.dev/github.com/anoriqq/couch)
 
 Simple full text search engine.
 
