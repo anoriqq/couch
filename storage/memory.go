@@ -10,7 +10,7 @@ type memoryStorage struct {
 	v map[string]map[couch.DocID]struct{}
 }
 
-var _ couch.Storage = &memoryStorage{}
+var _ couch.Storage = (*memoryStorage)(nil)
 
 func (s *memoryStorage) Store(ctx context.Context, docID couch.DocID, keywords []string) error {
 	for k, idMap := range s.v {

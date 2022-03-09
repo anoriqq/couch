@@ -9,9 +9,9 @@ import (
 
 type spaceAnalyzer struct{}
 
-var _ couch.Analyzer = spaceAnalyzer{}
+var _ couch.Analyzer = (*spaceAnalyzer)(nil)
 
-func (spaceAnalyzer) Analyze(ctx context.Context, v string) ([]string, error) {
+func (*spaceAnalyzer) Analyze(ctx context.Context, v string) ([]string, error) {
 	keywords := strings.Split(v, " ")
 
 	return keywords, nil
