@@ -8,7 +8,7 @@ Simple full text search engine.
 go get github.com/anoriqq/couch
 ```
 
-example project is [here](https://github.com/anoriqq/couch-example).
+example project is [here](https://github.com/anoriqq/couch-example). (WIP)
 
 ## Development
 
