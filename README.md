@@ -1,11 +1,11 @@
-# cauch - [![Go Reference](https://pkg.go.dev/badge/github.com/anoriqq/couch.svg)](https://pkg.go.dev/github.com/anoriqq/couch)
+# couch - [![Go Reference](https://pkg.go.dev/badge/github.com/anoriqq/couch.svg)](https://pkg.go.dev/github.com/anoriqq/couch)
 
 Simple full text search engine.
 
 ## Usage
 
 ```shell
-go get github.com/anoriqq/cauch
+go get github.com/anoriqq/couch
 ```
 
 example project is [here](https://github.com/anoriqq/couch-example).
