@@ -13,7 +13,7 @@ example project is [here](https://github.com/anoriqq/couch-example).
 ## Development
 
 ```shell
-# install requirements
+# install dependences
 go install github.com/tenntenn/testtime@latest
 go mod tidy
 
